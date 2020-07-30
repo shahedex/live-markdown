@@ -1,24 +1,27 @@
 # live-markdown
 
+![preview](preview.png)
+
 ## Project setup
-```
+
+```bash
 npm install
 ```
 
 ### Compiles and hot-reloads for development
-```
+
+```bash
 npm run serve
 ```
 
-### Compiles and minifies for production
+### Compile and run in Desktop Application mode
+
+```bash
+npm run electron:serve
 ```
+
+### Compiles and minifies for production
+
+```bash
 npm run build
 ```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
