@@ -15,6 +15,7 @@
         </div>
         <div class="col-md-6">
             <h3>Previewer</h3>
+            <div class="card text-left p-2" :style="styleObject">{{content}}</div>
         </div>
       </div>
     </div>
@@ -26,7 +27,12 @@ export default {
   data () {
     return {
       content: '',
-      height: window.innerHeight - 100
+      height: window.innerHeight - 100,
+      styleObject: {
+        height: window.innerHeight - 100 + 'px',
+        color: 'black',
+        overflowY: 'auto'
+      },
     }
   },
   components: {
